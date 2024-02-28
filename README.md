@@ -1,6 +1,6 @@
 # field-reservation-microservice
 
-Communication Contract: 
+Communication Contract: \
 How to request data: use pyZMQ's socket.send_string() method with a zip code as the argument, e.g., socket.send_string("12345")
 
 How to receive data: use pyZMQ's socket.recv_string() method and assign the response to a variable, e.g., reply = socket.recv_string()
